@@ -26,5 +26,6 @@ ASSIGN
 
 CTLSPEC
 	! EF (x = x_goal & y = y_goal)
-
+LTLSPEC
+    ! F (x = x_goal & y = y_goal)
 -- END Module Grid

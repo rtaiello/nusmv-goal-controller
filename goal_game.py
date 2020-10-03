@@ -12,10 +12,6 @@ from my_lib.costant import *
 
 if __name__ == "__main__":
 
-    if platform.system() == 'Darwin':
-        NUSMV_EXEC = "./mac-os/" + NUSMV_EXEC
-    else:
-        NUSMV_EXEC = "./linux/" + NUSMV_EXEC
     stop = False
     while not stop:
         try:
