@@ -1,9 +1,9 @@
 import argparse
 
-import my_lib.my_grid as grid
+import src.my_lib.my_grid as grid
 
 
-GRID_FILE_NAME = "./resources/grid.txt"
+GRID_FILE_NAME = "../resources/grid.txt"
 
 if __name__ == "__main__":
 

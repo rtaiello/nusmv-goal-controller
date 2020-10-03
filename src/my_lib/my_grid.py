@@ -3,7 +3,7 @@
 import random
 import io
 
-from my_lib.costant import *
+from src.my_lib.costant import *
 
 
 def generate_grid(n_rows: int, n_cols: int, probability: float, out_file: str, show: bool=False) -> None:

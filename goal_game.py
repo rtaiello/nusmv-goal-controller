@@ -4,11 +4,10 @@
 import subprocess
 
 # my libraries
-import my_lib.utils as utils
-import platform
-import my_lib.my_grid as grid
-import my_lib.my_model as model
-from my_lib.costant import *
+import src.my_lib.utils as utils
+import src.my_lib.my_grid as grid
+import src.my_lib.my_model as model
+from src.my_lib.costant import *
 
 if __name__ == "__main__":
 

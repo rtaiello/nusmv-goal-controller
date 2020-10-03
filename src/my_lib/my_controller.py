@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 
 import io
-import subprocess
 
 from tqdm import tqdm
 
-import my_lib.utils as u
-from my_lib.costant import *
+import src.my_lib.utils as u
 
 GOOD_ENTRY = 1
 BAD_ENTRY = 0

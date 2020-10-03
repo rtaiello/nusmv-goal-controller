@@ -1,9 +1,9 @@
 import argparse
 
-import my_lib.my_model as mg
-import my_lib.utils as cnt
+import src.my_lib.my_model as mg
+import src.my_lib.utils as cnt
 
-from moves_dictionary import MOVES
+from src.moves_dictionary import MOVES
 
 def get_best_path(M):
     goal = M.data.goal

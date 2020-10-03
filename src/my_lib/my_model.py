@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # my lib
-from my_lib.costant import *
+from src.my_lib.costant import *
 
 
 class Model:

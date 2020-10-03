@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-import os, subprocess, re
+import subprocess
 
 import re
 
-from my_lib.costant import NUSMV_EXEC, MODEL_OUTPUT
+from src.my_lib.costant import NUSMV_EXEC, MODEL_OUTPUT
 
 
 def launch_nusmv():

@@ -1,7 +1,7 @@
 import argparse
 
-import my_lib.my_model as model
-import my_lib.my_controller as cnt
+import src.my_lib.my_model as model
+import src.my_lib.my_controller as cnt
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
